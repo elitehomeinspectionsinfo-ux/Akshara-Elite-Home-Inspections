@@ -6,7 +6,7 @@ import siteInfo from './siteInfo'
 export const privacyPolicy = {
   breadcrumb: 'Privacy Policy',
   heading: 'Privacy Policy',
-  updated: '29 September 2026',
+  updated: '12 October 2026',
   intro: `This policy explains what personal data ${siteInfo.name} (“we”, “us”) collects through this website, how we use it, and the choices you have. We follow India’s Digital Personal Data Protection Act, 2023.`,
   sections: [
     {
@@ -36,13 +36,6 @@ export const privacyPolicy = {
         'To meet legal, tax and accounting obligations.',
       ],
       after: ['We do not sell your personal data or use it for third-party advertising.'],
-    },
-    {
-      id: 'analytics',
-      heading: 'Website analytics',
-      paragraphs: [
-        'We use Vercel Web Analytics to count page visits and see which pages are useful. It does not use cookies and does not identify you personally; we only see combined figures such as page views and referring websites.',
-      ],
     },
     {
       id: 'cookies',
